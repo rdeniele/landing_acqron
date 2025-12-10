@@ -1,0 +1,18 @@
+// Acqron Color Palette
+// Usage: Use these colors for backgrounds, text, borders, and accents throughout the site.
+
+// Primary:   #e54e3f   (Red - Brand, Buttons, Borders)
+// Accent:    #facb15   (Yellow - Highlights, Hover, CTA)
+// Dark:      #1e1e1e   (Background)
+// Text Main: #e5e5e5   (Softer White - Main Text)
+// Text Pure: #fff      (Pure White - Headings, Emphasis)
+// Border:    #e54e3f   (Brand Border)
+
+export const colorPalette = {
+	primary: "#e54e3f",    // Brand, buttons, borders
+	accent: "#facb15",    // Highlights, hover, CTA
+	dark: "#1e1e1e",      // Background
+	textMain: "#e5e5e5",  // Main text
+	textPure: "#fff",     // Headings, emphasis
+	border: "#e54e3f",    // Brand border
+};
