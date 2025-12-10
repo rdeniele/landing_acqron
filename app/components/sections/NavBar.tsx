@@ -22,6 +22,7 @@ function NavBar() {
           <a href="#home" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">Home</a>
           <a href="#about" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">About</a>
           <a href="#services" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">Services</a>
+          <a href="#projects" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">Projects</a>
           <a href="#testimonials" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">Testimonials</a>
           <a href="#blog" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">Blog</a>
           <a href="#contact" className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]">Contact</a>
@@ -45,6 +46,7 @@ function NavBar() {
           <a href="#home" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#about" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#services" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>Services</a>
+          <a href="#projects" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#testimonials" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>Testimonials</a>
           <a href="#blog" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>Blog</a>
           <a href="#contact" className="w-full text-[#d1d1d1] font-medium py-2 text-center transition-colors duration-300 hover:text-[#facb15]" onClick={() => setMenuOpen(false)}>Contact</a>
