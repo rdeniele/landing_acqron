@@ -70,8 +70,8 @@ function TeamPage() {
                   FOUNDER & CEO
                 </div>
                 <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">
-                  Startup founder, product strategist, and full-stack developer. Ron leads product
-                  product direction.
+                  Visionary leader driving innovation, product development, and business strategy
+                  Acqron.
                 </p>
               </div>
             </div>
