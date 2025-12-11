@@ -42,30 +42,6 @@ function About() {
           <h3 className="text-white text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">
             Meet the Founder & Early Team
           </h3>
-          <div className="flex justify-center mb-6">
-            <a
-              href="/team"
-              aria-label="See more of the team"
-              className="bg-[#1e1e1e] border border-[#333] rounded-full px-5 py-3 shadow-md hover:bg-[#232323] transition-colors duration-300 flex items-center gap-3 group"
-            >
-              <span className="text-[#facb15] text-base sm:text-lg font-semibold group-hover:text-white transition-colors duration-300">
-                More About the Team
-              </span>
-              <svg
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#facb15"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="group-hover:translate-x-1 transition-transform duration-300"
-              >
-                <path d="M9 6l6 6-6 6" />
-              </svg>
-            </a>
-          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 max-w-3xl mx-auto">
             {/* Founder */}
             <div className="text-center flex flex-col items-center pb-8 sm:pb-0">
@@ -114,26 +90,28 @@ function About() {
               </p>
             </div>
             {/* Team Member 2 */}
-            <div className="text-center flex flex-col items-center">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-4 sm:mb-5 rounded-full overflow-hidden shadow-lg flex items-center justify-center bg-linear-to-br from-[#e54e3f] to-[#1e1e1e]">
-                <Image
-                  src="/images/temp_profile.jpg"
-                  alt="Jepoy"
-                  width={160}
-                  height={160}
-                  className="w-full h-full object-cover"
-                  priority
-                />
-              </div>
-              <div className="text-white text-lg sm:text-xl font-semibold mb-1 sm:mb-2">Jepoy</div>
-              <div className="text-[#facb15] text-xs sm:text-sm font-semibold mb-2 sm:mb-3">
-                Full-stack Developer / AI Engineer
-              </div>
-              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">
-                Expert in building scalable web applications and integrating AI solutions to enhance
-                user experience and business intelligence.
-              </p>
-            </div>
+            <a
+              href="/team"
+              aria-label="See more of the team"
+              className="group w-full flex flex-col items-center justify-center text-center bg-[#232323] border border-[#333] rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105 hover:bg-[#252525] cursor-pointer min-h-[220px]"
+            >
+              <span className="text-[#facb15] text-lg sm:text-xl font-bold group-hover:text-white transition-colors duration-300 flex items-center gap-2">
+                Meet the Full Team
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#facb15"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="group-hover:translate-x-1 transition-transform duration-300"
+                >
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+              </span>
+            </a>
           </div>
           {/* Mini Arrow for More Team */}
           <div className="flex justify-center mt-6">
