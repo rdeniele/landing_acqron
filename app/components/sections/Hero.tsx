@@ -1,18 +1,24 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 function Hero() {
   return (
-    <section id="home" className="w-full bg-linear-to-br from-[#1e1e1e] to-[#2a2a2a] py-12 sm:py-20 px-4 sm:px-8 flex items-center min-h-[70vh]">
+    <section
+      id="home"
+      className="w-full bg-linear-to-br from-[#1e1e1e] to-[#2a2a2a] py-12 sm:py-20 px-4 sm:px-8 flex items-center min-h-[70vh]"
+    >
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left: Text */}
         <div className="flex flex-col items-start justify-center text-left">
-          <span className="text-[#facb15] text-xs sm:text-sm font-semibold tracking-wide mb-4">Software Development for Startups</span>
+          <span className="text-[#facb15] text-xs sm:text-sm font-semibold tracking-wide mb-4">
+            Software Development for Startups
+          </span>
           <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6 sm:mb-8 max-w-xl">
             Building Products Founders Bet Their Future On
           </h1>
           <p className="text-[#d1d1d1] text-base sm:text-xl leading-relaxed mb-8 sm:mb-10 max-w-lg">
-            Acqron is an emerging software development company founded specifically for idea-stage startups! We turn your vision into powerful, scalable software solutions.
+            Acqron is an emerging software development company founded specifically for idea-stage
+            startups! We turn your vision into powerful, scalable software solutions.
           </p>
           <a
             href="#contact"
