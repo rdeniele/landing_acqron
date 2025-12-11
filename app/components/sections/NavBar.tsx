@@ -54,18 +54,18 @@ function NavBar() {
           >
             Blog
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="text-[#d1d1d1] font-medium transition-colors duration-300 hover:text-[#facb15]"
           >
             Contact
-          </a>
+          </a> */}
           <a
             href="#contact"
             id="nav-cta"
             className="bg-[#e54e3f] text-white px-6 py-2 rounded-md font-semibold transition-colors duration-300 hover:bg-[#c43e2f]"
           >
-            Get Started
+            Book Now
           </a>
         </div>
         {/* Mobile Hamburger */}
@@ -145,7 +145,7 @@ function NavBar() {
             className="w-full bg-[#e54e3f] text-white px-6 py-2 rounded-md font-semibold text-center mt-2 transition-colors duration-300 hover:bg-[#c43e2f]"
             onClick={() => setMenuOpen(false)}
           >
-            Get Started
+            Book Now
           </a>
         </div>
       )}

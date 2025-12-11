@@ -24,7 +24,7 @@ function Hero() {
             href="#contact"
             className="inline-block bg-[#e54e3f] text-white px-8 sm:px-12 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition duration-300 hover:bg-[#c43e2f] hover:scale-105 shadow-lg"
           >
-            Get Started
+            Book a Free Strategy Call
           </a>
         </div>
         {/* Right: Image */}
