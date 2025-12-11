@@ -1,12 +1,11 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import NavBar from '../components/sections/NavBar';
 import Footer from '../components/sections/Footer';
 
 function TeamPage() {
-  const router = useRouter();
   return (
     <>
       <NavBar />
@@ -16,12 +15,29 @@ function TeamPage() {
       >
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-start mb-6">
-            <button
-              onClick={() => router.push('/')}
-              className="bg-[#facb15] text-[#252525] font-bold px-6 py-2 rounded-full shadow hover:bg-[#e54e3f] hover:text-white transition-colors"
+            <Link
+              href="/"
+              aria-label="Return to home page"
+              className="bg-[#1e1e1e] border border-[#333] rounded-full px-5 py-3 shadow-md hover:bg-[#232323] transition-colors duration-300 flex items-center gap-3 group"
             >
-              Return Home
-            </button>
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#facb15"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="group-hover:-translate-x-1 transition-transform duration-300"
+                style={{ transform: 'rotate(180deg)' }}
+              >
+                <path d="M9 6l6 6-6 6" />
+              </svg>
+              <span className="text-[#facb15] text-base sm:text-lg font-semibold group-hover:text-white transition-colors duration-300">
+                Return Home
+              </span>
+            </Link>
           </div>
           <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-20">
             <h2 className="text-[#facb15] text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">

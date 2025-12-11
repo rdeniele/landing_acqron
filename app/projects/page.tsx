@@ -9,29 +9,34 @@ export default function ProjectsPage() {
       <NavBar />
       <main className="flex-1 py-12 sm:py-20 px-4 sm:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="mb-6">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 bg-[#e54e3f] text-white px-5 py-2 rounded-lg font-semibold text-base transition duration-300 hover:bg-[#c43e2f] shadow"
-            >
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+          <div className="flex items-center justify-center mb-10 sm:mb-16 gap-4">
+            <div className="flex-1 flex justify-start">
+              <Link
+                href="/"
+                aria-label="Return to home page"
+                className="bg-[#1e1e1e] border border-[#333] rounded-full px-3 py-2 shadow-md hover:bg-[#232323] transition-colors duration-300 flex items-center gap-2 group text-sm"
               >
-                <path d="M15 18l-6-6 6-6" />
-              </svg>
-              Back to Home
-            </Link>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#facb15"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="group-hover:-translate-x-1 transition-transform duration-300"
+                  style={{ transform: 'rotate(180deg)' }}
+                >
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+                <span className="text-[#facb15] font-semibold group-hover:text-white transition-colors duration-300">
+                  Return Home
+                </span>
+              </Link>
+            </div>
+            <h2 className="text-[#facb15] text-3xl sm:text-4xl font-bold text-center">Projects</h2>
           </div>
-          <h2 className="text-[#facb15] text-3xl sm:text-4xl font-bold text-center mb-10 sm:mb-16">
-            Projects
-          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {/* Wisker Project Card */}
             <div className="bg-[#1e1e1e] rounded-xl shadow-lg p-8 border border-[#333] flex flex-col items-center">

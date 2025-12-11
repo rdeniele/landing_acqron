@@ -41,9 +41,25 @@ function Projects() {
           </h2>
           <a
             href="/projects"
-            className="bg-[#e54e3f] text-white px-8 py-3 rounded-lg text-base sm:text-lg font-semibold transition duration-300 hover:bg-[#c43e2f] shadow-lg whitespace-nowrap"
+            aria-label="View All Projects"
+            className="bg-[#1e1e1e] border border-[#333] rounded-full px-5 py-3 shadow-md hover:bg-[#232323] transition-colors duration-300 flex items-center gap-3 group"
           >
-            View All Projects
+            <span className="text-[#facb15] text-base sm:text-lg font-semibold group-hover:text-white transition-colors duration-300">
+              View All Projects
+            </span>
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#facb15"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="group-hover:translate-x-1 transition-transform duration-300"
+            >
+              <path d="M9 6l6 6-6 6" />
+            </svg>
           </a>
         </div>
         <div className="flex flex-col gap-12">
