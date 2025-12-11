@@ -42,6 +42,30 @@ function About() {
           <h3 className="text-white text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">
             Meet the Founder & Early Team
           </h3>
+          <div className="flex justify-center mb-6">
+            <a
+              href="/team"
+              aria-label="See more of the team"
+              className="bg-[#1e1e1e] border border-[#333] rounded-full px-5 py-3 shadow-md hover:bg-[#232323] transition-colors duration-300 flex items-center gap-3 group"
+            >
+              <span className="text-[#facb15] text-base sm:text-lg font-semibold group-hover:text-white transition-colors duration-300">
+                More About the Team
+              </span>
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#facb15"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="group-hover:translate-x-1 transition-transform duration-300"
+              >
+                <path d="M9 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 max-w-3xl mx-auto">
             {/* Founder */}
             <div className="text-center flex flex-col items-center pb-8 sm:pb-0">
@@ -110,6 +134,10 @@ function About() {
                 user experience and business intelligence.
               </p>
             </div>
+          </div>
+          {/* Mini Arrow for More Team */}
+          <div className="flex justify-center mt-6">
+            {/* Removed duplicate mini arrow button */}
           </div>
         </div>
         {/* Our Process Section */}
