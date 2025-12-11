@@ -11,10 +11,9 @@ function Testimonials() {
             <div className="text-[#facb15] text-2xl sm:text-3xl mb-2 sm:mb-4">&quot;</div>
             <p className="text-[#d1d1d1] text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">Acqron helped us go from idea to a working MVP in just 8 weeks. Their expertise in startup development is unmatched!</p>
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#e54e3f] rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg">JD</div>
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#e54e3f] rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg">RS</div>
               <div>
-                <div className="text-white font-bold text-sm sm:text-base">Alex Carter</div>
-                <div className="text-[#888] text-xs sm:text-sm">Founder</div>
+                <div className="text-white font-bold text-sm sm:text-base">Roland Spear</div>
                 <div className="text-[#facb15] text-xs mt-1">2025</div>
               </div>
             </div>
@@ -24,10 +23,9 @@ function Testimonials() {
             <div className="text-[#facb15] text-2xl sm:text-3xl mb-2 sm:mb-4">&quot;</div>
             <p className="text-[#d1d1d1] text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">Professional, responsive, and results-driven. Acqron transformed our vision into a beautiful, functional product.</p>
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#e54e3f] rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg">SM</div>
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#e54e3f] rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg">VG</div>
               <div>
-                <div className="text-white font-bold text-sm sm:text-base">Priya Patel</div>
-                <div className="text-[#888] text-xs sm:text-sm">CEO</div>
+                <div className="text-white font-bold text-sm sm:text-base">Vinesh Guthari</div>
                 <div className="text-[#facb15] text-xs mt-1">2025</div>
               </div>
             </div>
@@ -37,10 +35,9 @@ function Testimonials() {
             <div className="text-[#facb15] text-2xl sm:text-3xl mb-2 sm:mb-4">&quot;</div>
             <p className="text-[#d1d1d1] text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">The team at Acqron understood our needs perfectly and delivered beyond expectations. Highly recommend!</p>
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#e54e3f] rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg">MK</div>
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#e54e3f] rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg">JL</div>
               <div>
-                <div className="text-white font-bold text-sm sm:text-base">David Nguyen</div>
-                <div className="text-[#888] text-xs sm:text-sm">CTO</div>
+                <div className="text-white font-bold text-sm sm:text-base">James Brian Leslie</div>
                 <div className="text-[#facb15] text-xs mt-1">2025</div>
               </div>
             </div>

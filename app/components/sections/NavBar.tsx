@@ -10,7 +10,7 @@ function NavBar() {
     <nav className="sticky top-0 z-50 w-full bg-[#1e1e1e] border-b border-[#333] py-5 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <Image
-          src="/images/acqron_log.png"
+          src="/images/acqron_logo.png"
           alt="Acqron Logo"
           width={48}
           height={48}

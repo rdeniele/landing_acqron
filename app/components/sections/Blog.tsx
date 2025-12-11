@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Blog() {
   return (
@@ -8,29 +9,27 @@ function Blog() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {/* Blog Post 1 */}
           <div className="bg-[#252525] rounded-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-            <div className="h-40 sm:h-52 bg-linear-to-br from-[#e54e3f] to-[#facb15]"></div>
+            <div className="relative h-40 sm:h-52 w-full">
+              <Image
+                src="/images/blog1image.webp"
+                alt="A cozy study desk with a laptop, book, and warm lighting."
+                fill
+                style={{ objectFit: "cover" }}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                priority
+              />
+            </div>
             <div className="p-4 sm:p-6">
               <div className="text-[#facb15] text-xs font-semibold mb-1 sm:mb-2">DECEMBER 2025</div>
-              <h3 className="text-white text-base sm:text-xl font-semibold mb-2 sm:mb-3">5 Steps to Validate Your Startup Idea</h3>
-              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">Learn how to test your startup idea before investing time and money into development.</p>
+              <h3 className="text-white text-base sm:text-xl font-semibold mb-2 sm:mb-3">How AI is Redefining Study Habits</h3>
+              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">AI is transforming how students learn, with 86% of higher education students now using AI tools for studying. From instant feedback to adaptive learning, AI is making education more accessible, efficient, and effective—leading to measurable improvements in test scores, retention, and student confidence.</p>
             </div>
           </div>
-          {/* Blog Post 2 */}
-          <div className="bg-[#252525] rounded-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-            <div className="h-40 sm:h-52 bg-linear-to-br from-[#facb15] to-[#e54e3f]"></div>
-            <div className="p-4 sm:p-6">
-              <div className="text-[#facb15] text-xs font-semibold mb-1 sm:mb-2">NOVEMBER 2025</div>
-              <h3 className="text-white text-base sm:text-xl font-semibold mb-2 sm:mb-3">MVP vs Full Product: What&apos;s Right for You?</h3>
-              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">Discover the benefits of starting with an MVP and when to scale to a full product.</p>
-            </div>
-          </div>
-          {/* Blog Post 3 */}
-          <div className="bg-[#252525] rounded-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-            <div className="h-40 sm:h-52 bg-linear-to-br from-[#e54e3f] to-[#1e1e1e]"></div>
-            <div className="p-4 sm:p-6">
-              <div className="text-[#facb15] text-xs font-semibold mb-1 sm:mb-2">NOVEMBER 2025</div>
-              <h3 className="text-white text-base sm:text-xl font-semibold mb-2 sm:mb-3">Choosing the Right Tech Stack for Your Startup</h3>
-              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">A comprehensive guide to selecting technologies that will scale with your business.</p>
+          {/* Coming Soon Card */}
+          <div className="bg-[#252525] rounded-xl flex flex-col justify-center items-center overflow-hidden transition-transform duration-300 hover:-translate-y-2 min-h-48 sm:min-h-52">
+            <div className="flex-1 flex flex-col justify-center items-center p-8">
+              <h3 className="text-[#facb15] text-xl sm:text-2xl font-bold mb-2 text-center">More Insights Coming Soon</h3>
+              <p className="text-[#b1b1b1] text-sm sm:text-base text-center">Stay tuned for new articles and updates from our team.</p>
             </div>
           </div>
         </div>

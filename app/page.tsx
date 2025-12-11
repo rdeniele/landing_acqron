@@ -16,12 +16,12 @@ export default function Home() {
       <NavBar />
       {/* Hero Section */}
       <Hero />
-      {/* About Section */}
-      <About />
       {/* Services Section */}
       <Services />
       {/* Projects Section */}
       <Projects />
+      {/* About Section */}
+      <About />
       {/* Testimonials Section */}
       <Testimonials />
       {/* Blog Section */}
