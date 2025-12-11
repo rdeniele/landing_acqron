@@ -32,6 +32,14 @@ function Blog() {
                 making education more accessible, efficient, and effective—leading to measurable
                 improvements in test scores, retention, and student confidence.
               </p>
+              <a
+                href="https://medium.com/@dstalingrad/how-ai-is-redefining-study-habits-learning-00349540b8d6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-[#facb15] text-xs sm:text-sm font-semibold underline hover:text-white transition-colors duration-300"
+              >
+                Read More
+              </a>
             </div>
           </div>
           {/* Coming Soon Card */}
