@@ -37,17 +37,22 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* Project 2 */}
-          <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-lg flex flex-col">
+          {/* Project 2 (Blurred, Coming Soon) */}
+          <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-lg flex flex-col relative">
+            <div className="absolute inset-0 flex items-center justify-center z-10">
+              <span className="bg-[#252525cc] text-[#facb15] text-xl sm:text-2xl font-bold px-6 py-3 rounded-lg shadow-lg backdrop-blur-md">
+                Coming Soon
+              </span>
+            </div>
             <Image
               src="/images/Wisker.png"
               alt="Wisker Project"
               width={600}
               height={192}
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover filter blur-2xl"
               loading="lazy"
             />
-            <div className="p-6 flex-1 flex flex-col">
+            <div className="p-6 flex-1 flex flex-col opacity-0 pointer-events-none select-none">
               <h3 className="text-[#facb15] text-lg sm:text-xl font-semibold mb-3">Wisker</h3>
               <p className="text-[#b1b1b1] text-sm sm:text-base leading-relaxed mb-4">
                 Wisker is an AI-powered study platform that helps learners maximize memory retention
@@ -65,17 +70,22 @@ function Projects() {
               </a>
             </div>
           </div>
-          {/* Project 3 */}
-          <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-lg flex flex-col">
+          {/* Project 3 (Blurred, Coming Soon) */}
+          <div className="bg-[#1e1e1e] rounded-xl overflow-hidden shadow-lg flex flex-col relative">
+            <div className="absolute inset-0 flex items-center justify-center z-10">
+              <span className="bg-[#252525cc] text-[#facb15] text-xl sm:text-2xl font-bold px-6 py-3 rounded-lg shadow-lg backdrop-blur-md">
+                Coming Soon
+              </span>
+            </div>
             <Image
               src="/images/Wisker.png"
               alt="Wisker Project"
               width={600}
               height={192}
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover filter blur-2xl"
               loading="lazy"
             />
-            <div className="p-6 flex-1 flex flex-col">
+            <div className="p-6 flex-1 flex flex-col opacity-0 pointer-events-none select-none">
               <h3 className="text-[#facb15] text-lg sm:text-xl font-semibold mb-3">Wisker</h3>
               <p className="text-[#b1b1b1] text-sm sm:text-base leading-relaxed mb-4">
                 Wisker is an AI-powered study platform that helps learners maximize memory retention
