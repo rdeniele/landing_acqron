@@ -50,6 +50,10 @@ function TeamPage() {
           </div>
           {/* Pyramid Team Structure */}
           <div className="flex flex-col items-center max-w-5xl mx-auto">
+            {/* Acqron Enterprise Division */}
+            <h3 className="text-[#facb15] text-2xl sm:text-3xl font-bold text-center mb-8">
+              Acqron Enterprise Division
+            </h3>
             {/* Top: Ron */}
             <div className="mb-10">
               <div className="text-center flex flex-col items-center">
@@ -127,32 +131,9 @@ function TeamPage() {
             {/* Kent Jordan */}
             <div className="max-w-5xl mx-auto mt-16">
               <h3 className="text-[#facb15] text-2xl sm:text-3xl font-bold text-center mb-8">
-                Wisker Division
+                Acqron Labs Division
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10">
-                {/* Kent Jordan */}
-                <div className="text-center flex flex-col items-center">
-                  <div className="w-32 h-32 sm:w-36 sm:h-36 mb-4 rounded-full overflow-hidden shadow-lg flex items-center justify-center bg-linear-to-br from-[#facb15] to-[#e54e3f]">
-                    <Image
-                      src="/images/male_placeholder.jpg"
-                      alt="Kent Jordan"
-                      width={160}
-                      height={160}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="text-white text-lg sm:text-xl font-semibold mb-1 sm:mb-2">
-                    Kent Jordan
-                  </div>
-                  <div className="text-[#facb15] text-xs sm:text-sm font-semibold mb-2 sm:mb-3">
-                    AI Engineer
-                  </div>
-                  <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">
-                    Full-stack developer and AI engineer skilled in building intelligent, scalable
-                    web applications and automation solutions for innovative products.
-                  </p>
-                </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
                 {/* Joshua Vidal */}
                 <div className="text-center flex flex-col items-center">
                   <div className="w-32 h-32 sm:w-36 sm:h-36 mb-4 rounded-full overflow-hidden shadow-lg flex items-center justify-center bg-linear-to-br from-[#e54e3f] to-[#facb15]">

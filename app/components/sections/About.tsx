@@ -10,14 +10,15 @@ function About() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Our Story Section */}
-        <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-20">
-          <h2 className="text-[#facb15] text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">Our Story</h2>
-          <p className="text-[#d1d1d1] text-base sm:text-lg leading-loose">
-            Acqron was born from a simple observation: most software development companies
-            weren&apos;t built for idea-stage startups. Founders needed more than just code—they
-            needed partners who understood the unique challenges of going from zero to one. In 2025,
-            we set out to change that, bringing together a team of developers, designers, and
-            startup veterans dedicated to one mission: turning bold ideas into successful products.
+        <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-20">
+          <h2 className="text-[#facb15] text-3xl sm:text-5xl md:text-6xl font-extrabold mb-6 sm:mb-8">
+            We understand business, not just code
+          </h2>
+          <p className="text-[#d1d1d1] text-base sm:text-xl leading-loose">
+            Acqron was born from the observation that businesses often invest in technology that doesn&apos;t deliver results. We bring together developers, designers, and business strategists to implement systems that work, train teams, and ensure adoption.
+          </p>
+          <p className="text-[#d1d1d1] text-base sm:text-xl leading-loose mt-4">
+            With decades of combined experience, we provide the expertise and execution businesses need to stop chaos and scale efficiently.
           </p>
         </div>
         {/* Mission & Vision Section */}
@@ -38,53 +39,53 @@ function About() {
           </div>
         </div>
         {/* Meet the Founder & Early Team */}
-        <div>
-          <h3 className="text-white text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">
+        <div className="mb-16">
+          <h3 className="text-white text-3xl sm:text-5xl font-extrabold text-center mb-10 sm:mb-16">
             Meet the Founder & Early Team
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 max-w-5xl mx-auto">
             {/* Founder */}
-            <div className="text-center flex flex-col items-center pb-8 sm:pb-0">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-4 sm:mb-5 rounded-full overflow-hidden shadow-lg flex items-center justify-center bg-linear-to-br from-[#e54e3f] to-[#facb15]">
+            <div className="text-center flex flex-col items-center">
+              <div className="w-36 h-36 sm:w-44 sm:h-44 mx-auto mb-5 sm:mb-6 rounded-full overflow-hidden shadow-xl flex items-center justify-center bg-linear-to-br from-[#e54e3f] to-[#facb15]">
                 <Image
                   src="/images/ronidpic.png"
                   alt="Ron Paragoso"
-                  width={160}
-                  height={160}
+                  width={176}
+                  height={176}
                   className="w-full h-full object-cover"
                   priority
                 />
               </div>
-              <div className="text-white text-lg sm:text-xl font-semibold mb-1 sm:mb-2">
+              <div className="text-white text-xl sm:text-2xl font-bold mb-2">
                 Ron Paragoso
               </div>
-              <div className="text-[#facb15] text-xs sm:text-sm font-semibold mb-2 sm:mb-3">
+              <div className="text-[#facb15] text-sm sm:text-base font-semibold mb-3 sm:mb-4">
                 FOUNDER & CEO
               </div>
-              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">
+              <p className="text-[#b1b1b1] text-sm sm:text-base leading-relaxed">
                 Visionary leader driving innovation, product development, and business strategy for
                 Acqron.
               </p>
             </div>
             {/* Team Member 1 */}
-            <div className="text-center flex flex-col items-center pb-8 sm:pb-0">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-4 sm:mb-5 rounded-full overflow-hidden shadow-lg flex items-center justify-center bg-linear-to-br from-[#facb15] to-[#e54e3f]">
+            <div className="text-center flex flex-col items-center">
+              <div className="w-36 h-36 sm:w-44 sm:h-44 mx-auto mb-5 sm:mb-6 rounded-full overflow-hidden shadow-xl flex items-center justify-center bg-linear-to-br from-[#facb15] to-[#e54e3f]">
                 <Image
                   src="/images/stalingradpic.jpg"
                   alt="Stalingrad Dollosa"
-                  width={160}
-                  height={160}
+                  width={176}
+                  height={176}
                   className="w-full h-full object-cover"
                   priority
                 />
               </div>
-              <div className="text-white text-lg sm:text-xl font-semibold mb-1 sm:mb-2">
+              <div className="text-white text-xl sm:text-2xl font-bold mb-2">
                 Stalingrad Dollosa
               </div>
-              <div className="text-[#facb15] text-xs sm:text-sm font-semibold mb-2 sm:mb-3">
+              <div className="text-[#facb15] text-sm sm:text-base font-semibold mb-3 sm:mb-4">
                 Chief Marketing Officer
               </div>
-              <p className="text-[#b1b1b1] text-xs sm:text-sm leading-relaxed">
+              <p className="text-[#b1b1b1] text-sm sm:text-base leading-relaxed">
                 Marketing strategist with expertise in brand growth, digital campaigns, and startup
                 market entry.
               </p>
@@ -93,16 +94,16 @@ function About() {
             <a
               href="/team"
               aria-label="See more of the team"
-              className="group w-full flex flex-col items-center justify-center text-center bg-[#232323] border border-[#333] rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105 hover:bg-[#252525] cursor-pointer min-h-[220px]"
+              className="group w-full flex flex-col items-center justify-center text-center bg-[#1e1e1e] border-2 border-[#facb15] rounded-xl shadow-xl p-10 transition-all duration-300 hover:scale-105 hover:bg-[#252525] hover:border-[#e54e3f] cursor-pointer min-h-[280px]"
             >
-              <span className="text-[#facb15] text-lg sm:text-xl font-bold group-hover:text-white transition-colors duration-300 flex items-center gap-2">
+              <span className="text-[#facb15] text-xl sm:text-2xl font-bold group-hover:text-white transition-colors duration-300 flex items-center gap-2">
                 Meet the Full Team
                 <svg
-                  width="24"
-                  height="24"
+                  width="28"
+                  height="28"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#facb15"
+                  stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -113,15 +114,11 @@ function About() {
               </span>
             </a>
           </div>
-          {/* Mini Arrow for More Team */}
-          <div className="flex justify-center mt-6">
-            {/* Removed duplicate mini arrow button */}
-          </div>
         </div>
         {/* Our Process Section */}
         <div className="max-w-4xl mx-auto mt-16">
-          <h3 className="text-[#facb15] text-2xl sm:text-3xl font-bold text-center mb-8">
-            Our Process
+          <h3 className="text-[#facb15] text-3xl sm:text-5xl font-extrabold text-center mb-10 sm:mb-12">
+            How We Work
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div className="bg-[#1e1e1e] rounded-xl p-6 shadow-md text-center border border-[#333] flex flex-col items-center">
@@ -130,7 +127,7 @@ function About() {
               </div>
               <h4 className="text-white text-lg font-semibold mb-2">Discovery Call</h4>
               <p className="text-[#b1b1b1] text-sm">
-                We start with a conversation to understand your vision, needs, and goals.
+                Understand your vision and biggest operational challenges.
               </p>
             </div>
             <div className="bg-[#1e1e1e] rounded-xl p-6 shadow-md text-center border border-[#333] flex flex-col items-center">
@@ -139,7 +136,7 @@ function About() {
               </div>
               <h4 className="text-white text-lg font-semibold mb-2">Define</h4>
               <p className="text-[#b1b1b1] text-sm">
-                We clarify the problem and design the right solution together.
+                Clarify problems and design the right solution.
               </p>
             </div>
             <div className="bg-[#1e1e1e] rounded-xl p-6 shadow-md text-center border border-[#333] flex flex-col items-center">
@@ -148,16 +145,16 @@ function About() {
               </div>
               <h4 className="text-white text-lg font-semibold mb-2">Develop</h4>
               <p className="text-[#b1b1b1] text-sm">
-                We build, iterate, and test with you every step of the way.
+                Implement, iterate, and test systems with your team.
               </p>
             </div>
             <div className="bg-[#1e1e1e] rounded-xl p-6 shadow-md text-center border border-[#333] flex flex-col items-center">
               <div className="text-3xl mb-2 text-[#facb15]">
                 <FaRocket />
               </div>
-              <h4 className="text-white text-lg font-semibold mb-2">Deliver</h4>
+              <h4 className="text-white text-lg font-semibold mb-2">Deliver & Optimize</h4>
               <p className="text-[#b1b1b1] text-sm">
-                We launch, support, and help you grow for long-term success.
+                Ensure adoption, track ROI, and plan for growth.
               </p>
             </div>
           </div>

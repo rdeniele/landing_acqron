@@ -11,14 +11,13 @@ function Hero() {
         {/* Left: Text */}
         <div className="flex flex-col items-start justify-center text-left">
           <span className="text-[#facb15] text-xs sm:text-sm font-semibold tracking-wide mb-4">
-            Software Development for Startups
+            We help businesses systemize, automate, and scale
           </span>
           <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6 sm:mb-8 max-w-xl">
-            Building Products Founders Bet Their Future On
+            Building Products Businesses Bet Their Future On
           </h1>
           <p className="text-[#d1d1d1] text-base sm:text-xl leading-relaxed mb-8 sm:mb-10 max-w-lg">
-            Acqron is an emerging software development company founded specifically for idea-stage
-            startups! We turn your vision into powerful, scalable software solutions.
+            Acqron provides strategy, systems, and automation that turn chaos into efficiency, so you can focus on growth.
           </p>
           <a
             href="#contact"

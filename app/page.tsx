@@ -5,6 +5,7 @@ import Contact from './components/sections/Contact';
 import Footer from './components/sections/Footer';
 import Hero from './components/sections/Hero';
 import NavBar from './components/sections/NavBar';
+import Problem from './components/sections/Problem';
 import Projects from './components/sections/Projects';
 import Services from './components/sections/Services';
 import Testimonials from './components/sections/Testimonials';
@@ -19,6 +20,8 @@ export default function Home() {
       <NavBar />
       {/* Hero Section */}
       <Hero />
+      {/* Problem Section */}
+      <Problem />
       {/* Services Section */}
       <Services />
       {/* Projects Section */}
